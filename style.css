@@ -1,0 +1,58 @@
+.gradient-bg-blacekandwhit {
+    background: linear-gradient(300deg, #fffd81, #61c9b2, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .dark-bg {
+    background: linear-gradient(300deg, #d8d8d8, #727272, #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  #falsebg {
+    height: 200px;
+  }
+
+  .bgopacity {
+    background-color: #ffffffa9;
+  }
+
+  .contact-div {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(139, 139, 139, 0.527);
+    color: white;
+    text-align: center;
+
+  }
+
+  #news {
+    background-color: rgba(255, 125, 164, 0.651);
+  }

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uluberia College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section id="header" class="dark-bg" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <img src="./images/Uluberia college logo.jpg" alt="college logo" height="50" class="pe-3">
+        <a class="navbar-brand" href="#">Uluberia College</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="#principalDesk">Principal Desk</a>
+                        <a class="dropdown-item" href="#collegeHistory">College History</a>
+                        <a class="dropdown-item" href="#affiliation">Affiliation & Accreditation</a>
+                        <!-- Add more dropdown items as needed -->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="missionDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mission & Vision
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="missionDropdown">
+                        <a class="dropdown-item" href="#principalList">Principal List</a>
+                        <a class="dropdown-item" href="#bestPractices">Best Practices</a>
+                        <a class="dropdown-item" href="#institutionalDistinctiveness">Institutional Distinctiveness</a>
+                        <!-- Add more dropdown items as needed -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#administration">Administration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#admission">Admission</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="academicDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Academic
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="academicDropdown">
+                        <a class="dropdown-item" href="#admission">Admission</a>
+                        <a class="dropdown-item" href="#courses">Courses</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#ug">UG</a>
+                        <a class="dropdown-item" href="#pg">PG</a>
+                        <a class="dropdown-item" href="#pos">POs PSOs and COs</a>
+                        <a class="dropdown-item" href="#subjectCombination">Subject Combination</a>
+                        <a class="dropdown-item" href="#feesStructure">Fees Structure</a>
+                        <a class="dropdown-item" href="#result">Result</a>
+                        <a class="dropdown-item" href="#academicCalendar">Academic Calendar</a>
+                        <a class="dropdown-item" href="#classRoutine">Class Routine</a>
+                        <a class="dropdown-item" href="#prospectus">Prospectus</a>
+                        <a class="dropdown-item" href="#researchPublication">Research & Publication</a>
+                        <!-- Add more dropdown items as needed -->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Departments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="departmentsDropdown">
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item" href="#undergraduate">Under Graduate</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#artsHumanity">Arts and Humanity</a>
+                                <a class="dropdown-item" href="#bengali">Bengali</a>
+                                <a class="dropdown-item" href="#english">English</a>
+                                <!-- Add more department items as needed -->
+                            </div>
+                        </div>
+                        <div class="dropdown-submenu">
+                            <a class="dropdown-item" href="#postgraduate">Post Graduate</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#bengaliPG">Bengali</a>
+                                <a class="dropdown-item" href="#mathematicsPG">Mathematics</a>
+                                <!-- Add more department items as needed -->
+                            </div>
+                        </div>
+                        <!-- Add more dropdown items as needed -->
+                    </div>
+                </li>
+                <!-- Add more navbar items as needed -->
+            </ul>
+        </div>
+    </nav>
+    </section>
+    <!-- Your content sections go here -->
+
+    <!-- Bootstrap JS and dependencies -->
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+
+    <!-- Hero Section -->
+  <section class="gradient-bg-blackandwhite">
+        <header class="dark-bg jumbotron text-center" style="background-image: url(./images/Uluberia\ College\ Building\ Photo.jpg);">
+       <div class="container bgopacity mt-5">
+        <img src="./images/Uluberia College Font Picture.jpg" alt="college picture" height="1000" style="max-width: 100%;" class="img-fluid border mt-5">
+        
+        <div class="img-fluid">
+        <h1 class="display-5 p-2 bg-opacity-10">Welcome to Uluberia College</h1>
+        </div>
+        <p class="lead">Empowering Minds, Enriching Lives</p></div>
+    </header>
+</section>
+    <!-- About Section -->
+    <!-- About Us Section -->
+<section id="about" class="container-fluid bg-light my-5">
+    <h2 class="text-center mb-4">About Us</h2>
+    
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="./images/Uluberia College Building Photo.jpg" class="img-fluid rounded" alt="About Us Image" height="300">
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Welcome to Uluberia College</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet metus nec quam vehicula,
+                        ut tempor massa ullamcorper. Duis vel risus eu libero sodales venenatis non id dui.
+                    </p>
+                    <p class="card-text">
+                        Our commitment to academic excellence is reflected in our diverse range of programs and our
+                        dedicated faculty. At Uluberia College, we aim to foster a vibrant and inclusive learning
+                        environment.
+                    </p>
+                    <p class="card-text">
+                        Join us on a journey of knowledge, growth, and success. Explore endless possibilities at
+                        Uluberia College.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- college notice board  -->
+<section id="college-notice-board" class="container dark-bg">
+    <h2 class="text-center text-light">COLLEGE NOTICE BOARD</h2>
+  
+    <div class="card mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Notice for filling up of application form of Calcutta University exam (Hons + General) for the students of 3rd semester (2nd Phase)</h3>
+        <p class="card-text"><strong>Date:</strong> 22-Jan-2024</p>
+        <p class="card-text">This is to inform all students of the 3rd semester (2nd Phase) about the commencement of the application process for the Calcutta University exam. Please ensure timely submission to avoid any inconvenience.</p>
+      </div>
+    </div>
+  
+    <div class="card mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Notice for filling up of application form of Calcutta University exam (Hons + General) for the students of 3rd semester</h3>
+        <p class="card-text"><strong>Date:</strong> 18-Jan-2024</p>
+        <p class="card-text">Attention all 3rd-semester students! The application form for the Calcutta University exam (Hons + General) is now available. Make sure to submit your applications by the specified date.</p>
+      </div>
+    </div>
+  
+    <div class="card mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Notice for Theory (for IDC& SEC) and Tutorial Examination of 1st Semester 2023 (Under CCF)</h3>
+        <p class="card-text"><strong>Date:</strong> 12-Jan-2024</p>
+        <p class="card-text">Important announcement for students under the CCF program: Theory and Tutorial Examinations for the 1st Semester 2023 (IDC & SEC) are scheduled for the specified date. Be well-prepared for the examinations.</p>
+      </div>
+    </div>
+  
+    <div class="card mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Notice for Spoken English Improvement Programme</h3>
+        <p class="card-text"><strong>Date:</strong> 15-Jan-2024</p>
+        <p class="card-text">We are pleased to announce the commencement of the Spoken English Improvement Programme. Interested students are encouraged to participate and enhance their English communication skills.</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+    <!-- News section  -->
+    <!-- News Section -->
+<section id="news" class="container my-5">
+    <h2 class="text-center mb-4">Latest News</h2>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://scontent.fccu27-2.fna.fbcdn.net/v/t39.30808-6/355029941_976104263514566_7839503712239887094_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c42490&_nc_ohc=T4gqPdM2n_YAX8Cq_BL&_nc_ht=scontent.fccu27-2.fna&oh=00_AfAIBA37-2bTc-EtsjiUXf27wavcavG4PIphw8nRsizGQA&oe=65CE5634" class="card-img-top" alt="News Image 1">
+                <div class="card-body">
+                    <h5 class="card-title">News Title 1</h5>
+                    <p class="card-text">Brief description of the news. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://scontent.fccu27-1.fna.fbcdn.net/v/t39.30808-6/316235577_860119738446353_6806001465476531484_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c42490&_nc_ohc=NoTqIZAYznUAX9jU9xx&_nc_ht=scontent.fccu27-1.fna&oh=00_AfAn_oxewVz1Voi8GydntoGs8nLmDqasIj64a4lYf7shoA&oe=65CDD605" class="card-img-top" alt="News Image 2">
+                <div class="card-body">
+                    <h5 class="card-title">News Title 2</h5>
+                    <p class="card-text">Brief description of the news. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://scontent.fccu27-1.fna.fbcdn.net/v/t39.30808-6/298943544_783968539394807_7056074997618738531_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd477f&_nc_ohc=1oWwdoOjnJsAX_fDWI6&_nc_ht=scontent.fccu27-1.fna&oh=00_AfB8NotuKEBZTPyLJipkbNOsIx_B2s0EzQHdkpYGPV-_Yw&oe=65CEB35C" class="card-img-top" alt="News Image 3">
+                <div class="card-body">
+                    <h5 class="card-title">News Title 3</h5>
+                    <p class="card-text">Brief description of the news. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Courses Section -->
+<!-- Courses Section -->
+<section id="courses" class="container my-5 bg-light">
+    <h2 class="text-center mb-4">Our Courses</h2>
+
+    <!-- Science Courses -->
+    <div class="mb-5">
+       <a href="#"><h3 class="mb-3">Science Courses >></h3></a> 
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Physics</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Chemistry</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Mathematics</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Zoology</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Botany</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Computer Science</h5>
+                <p>(Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Physiology</h5>
+                <p>(Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Microbiology</h5>
+                <p>(Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Geography</h5>
+                <p>(Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Economics</h5>
+                <p>(Gen.)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Commerce Courses -->
+    <div class="mb-5">
+        <a href="#"><h3 class="mb-3">Commerce Courses >></h3></a>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Commerce</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arts Courses -->
+    <div>
+        <a href="#"><h3 class="mb-3">Arts Courses >></h3></a>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Bengali</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>English</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>History</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Political Sciences</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Philosophy</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Sanskrit</h5>
+                <p>(Hons. & Gen.)</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Education</h5>
+                <p>(Gen.)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+<!-- Contact Us Section -->
+<section id="contact" class="container my-5 bg-light">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    
+    <div class="row">
+        <div class="contact-div mb-5">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Uluberia College</h5>
+                    <p class="card-text">Uluberia, Howrah - 711 315</p>
+                    <p class="card-text">(9133) 2661 0332</p>
+                    <p class="card-text">info@uluberiacollege.org</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+
+<!-- our facilities  -->
+<section id="our-facilities" class="container bg-light mb-5">
+    <h2 class="text-center">OUR FACILITIES</h2>
+  
+    <div class="facility mt-3">
+      <h3>Educational Specialist Consultation</h3>
+      <p>If you need an Educational Specialist for consultation, there are many variations of passages of Lorem Ipsum available.</p>
+    </div>
+  
+    <div class="facility mt-5">
+      <h3>Scholarships & Stipends</h3>
+      <p>A number of meritorious and deserving students are granted half-free studentship. Considerable financial grants from Students Welfare Fund are sanctioned to students below the poverty level.</p>
+      <a href="#" class="btn btn-primary">Read More...</a>
+    </div>
+  
+    <div class="facility mt-5">
+      <h3>Health & Medical</h3>
+      <p>The college provides health services to students. The health center has a tie-up with Students' Health Home in Kolkata.</p>
+      <a href="#" class="btn btn-primary">Read More...</a>
+    </div>
+  
+    <div class="facility mt-5">
+      <h3>Computer & Internet</h3>
+      <p>All departments are provided with Computers and Internet facilities. The library and many laboratories have computers with internet. Administrative activities, such as the Admission Process and Examination Results, have been computerized.</p>
+      <a href="#" class="btn btn-primary">Read More...</a>
+    </div>
+  
+    <div class="facility mt-5">
+      <h3>Career Counseling</h3>
+      <p>Take a type specimen book. It has survived not only five centuries but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <a href="#" class="btn btn-primary">Read More...</a>
+    </div>
+  </section>
+  
+
+  <footer class="text-light mt-5" style="background-color: rgb(0, 0, 0);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <h5>USEFUL LINKS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">University of Calcutta</a></li>
+            <li><a href="#">University Grant Commission (UGC)</a></li>
+            <li><a href="#">College Service Commission</a></li>
+            <li><a href="#">NAAC</a></li>
+            <li><a href="#">MHRD</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4">
+          <h5>USEFUL LINKS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">W.B State Council of Higher Education</a></li>
+            <li><a href="#">Department of Higher Education</a></li>
+            <li><a href="#">West Bengal Govt. Orders</a></li>
+            <li><a href="#">All Bengal Principals' Council</a></li>
+            <li><a href="#">Backward Classes Welfare Dept, Govt of W.B</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4 mb-5">
+          <h5>GET IN TOUCH</h5>
+          <p>Uluberia College<br>Uluberia, Howrah - 711 315<br>(9133) 2661 0332<br>info@uluberiacollege.org</p>
+          <a href="#" target="_blank"> <i class="fa-solid fa-map-location-dot"></i> GOOGLE MAP</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center mt-5 bg-secondary">
+        <p>All Rights Reserved 2024 &copy; JahirKdeveloper</p>
+      </footer>
+      
+  </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+</body>
+</html>
